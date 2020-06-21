@@ -12,7 +12,7 @@ def boasvindas():
     print(" Então, vamos começar!!!\n")
 
 def Nivel():
-    time.sleep(5)
+    time.sleep(3)
     print(" Escolha o nivel de dificuldade:\n")
     level = int(input(" 1.Fácil \n 2.Médio \n 3. Maratona(jogar todas as perguntas)\n"))
     while(level > 3 or level < 1):
@@ -27,6 +27,7 @@ def P1():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘B’\n Antes da década de 1920, o computador era um termo associado a pessoas que realizavam cálculos, geralmente liderados por físicos em sua maioria homens.")
+        ponto = 0
     return ponto
 
 def P2():
@@ -37,6 +38,7 @@ def P2():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘E’\n Apesar da APPLE® ser uma empresa criativa em seus produtos, ela não foi criativa ao criar sua logo. Todas as alternativas são apenas teorias não confirmadas pela APPLE®. Realmente te pegamos nessa!")
+        ponto = 0
     return ponto
 
 def P3():
@@ -47,6 +49,7 @@ def P3():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘B’\n Apesar de ambos os modelos terem varias mudanças entre si. Apenas os computadores com base no modelo de Neumann armazenavam dados e programas juntos em suas memórias, visando o fato de foi Von Neumann que propôs que programas e dados são na verdade a mesma coisa (sequencia de bits).")
+        ponto = 0
     return ponto
 
 def P4():
@@ -57,7 +60,7 @@ def P4():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘E’\n Existem vários sistemas operacionais pelo mundo, mas Object Pascal não é um sistema operacional, ele é na verdade uma linguagem de programação.")
-
+        ponto = 0
     return ponto
 
 def P5():
@@ -68,7 +71,7 @@ def P5():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: letra ’C’. A resposta está explicitada na questão.")
-
+        ponto = 0
     return ponto
 
 def P6():
@@ -79,7 +82,7 @@ def P6():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: letra ‘B’. Bug é um jargão da informática que se refere às temidas falhas inesperadas que ocorrem ao executar algum software ou usar um hardware. Esses erros imprevisíveis que prejudicam o funcionamento correto de alguma tecnologia podem desencadear problemas incômodos, como travamentos e roubar informações sigilosas.")
-
+        ponto = 0
     return ponto
 
 def P7():
@@ -90,7 +93,7 @@ def P7():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: letra ‘A’. Uma operação Lógica é uma operação matemática em Álgebra Booleana cujos valores podem ser iguais a 0 ou 1, o que corresponde a falso ou verdadeiro, respectivamente. Usados para manipular padrões de bits.")
-
+        ponto = 0
     return ponto
 
 def P8():
@@ -101,7 +104,7 @@ def P8():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: letra ‘B’. No deslocamento simples as posições deslocadas são preenchidas com zero (nesse caso entra um ‘zero’ pela esquerda). Bits que saem representação do número são perdidos. Seguindo essa regra, chegamos à alternativa ‘b’.")
-
+        ponto = 0
     return ponto
 
 def P9():
@@ -112,7 +115,7 @@ def P9():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘C’. Ábaco é um antigo instrumento de cálculo em sistema decimal, com provável origem na Mesopotâmia há mais de 5500 anos a.C., considerado como uma extensão do ato de se contar nos dedos")
-
+        ponto = 0
     return ponto
 
 def P10():
@@ -123,7 +126,7 @@ def P10():
         ponto = 1
     else:
         print("ERRADO :(\n Resposta correta: Letra ‘B’.  Alan Mathison Turing realmente foi importante para a computação já que foi influente no desenvolvimento da ciência da computação e na formalização do conceito de algoritmo e computação com a máquina de Turing, desempenhando um papel importante na criação do computador moderno, Sendo pioneiro na Ciência da Computação.")
-
+        ponto = 0
     return ponto
 
 def Maratona():
