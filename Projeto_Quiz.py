@@ -9,13 +9,14 @@ def boasvindas():
     print(" Então, vamos começar!!!\n")
 
 def Nivel():
+    time.sleep(5)
     print(" Escolha o nivel de dificuldade:\n")
-    level = int(input(" 1. Facil\n 2. Médio\n 3. Difícil\n"))
+    level = int(input(" 1.Maratona\n 2. Facil\n 3. Médio\n 4. Difícil\n"))
     while(level > 3 or level < 1):
         level = int(input(" Opção inválida. Digite uma das opções a seguir:\n 1. Facil\n 2. Médio\n 3. Difícil\n"))
     return level
     
-def Perguntas ():
+def Maratona():
     print ("Hoje, um computador é uma máquina capaz de variados tipos de tratamento automático de informações ou processamento de dados. Um computador pode possuir inúmeros atributos, dentre eles armazenamento de dados, processamento de dados, por exemplo. Mas no passado, mais precisamente antes da década de 1920, o computador era um termo associado á?...")
     res1 = input ("\n a)objetos decorativos\n b)pessoas que realizavam cálculos\n c)cumbucas\n d)jogos de tabuleiro\n e)foguetes de mesa\n")
     
@@ -30,14 +31,13 @@ def Perguntas ():
     return res1, res2, res3, res4
 
 
-def main ():
+def main():
     boasvindas()
     opcao = Nivel()
 
     if(opcao == 1):
-        Perguntas()
+        Maratona()
     elif(opcao == 2):
-        print("Deu Certo!")
-
+        print("cu")
 
 main()
